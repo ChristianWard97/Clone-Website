@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap');
+
+*{font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    
+    height: 100%;
+    background: linear-gradient(180deg, #1f1e28 50%, #1f1e28 50%);
+
+}
+
+.solologo{
+height: 40px;
+width: 200px
+}
+
+.navi{
+
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.mainheader{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.subheader{
+    font-size: small;
+    font-weight: 500;
+}
+
+.position{
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    text-align:end
+}
+.courses{
+    color: white;
+background-color: #1f1e28;
+border: none;
+font-size: 20px;
+font-weight:bold
+}
+.playground{
+    color: white;
+background-color: #1f1e28;
+border: none;
+font-size: 20px;
+font-weight:bold
+}
+.discuss{
+    color: white;
+background-color: #1f1e28;
+border: none;
+font-size: 20px;
+font-weight:bold
+}
+.blog{
+    color: white;
+background-color: #1f1e28;
+border: none;
+font-size: 20px;
+font-weight:bold
+}
+.pro{
+    color: white;
+background-color: #1f1e28;
+border: none;
+font-size: 20px;
+font-weight:bold
+}
+
+.login{
+    color: rgb(25, 136, 240);
+    background-color: #1f1e28;
+ border-color: rgb(25, 136, 240);
+ border-radius: 5px;
+ padding: 5px 10px;
+font-size: 20px;
+font-weight:bold
+
+}
+
+.register{
+    color: white;
+    background-color: rgb(25, 136, 240);
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+font-size: 20px;
+font-weight:bold
+}
+
+.start-learning{
+    color: white;
+    background-color: rgb(25, 136, 240);
+    font-size: 22px;
+    padding: 10px 100px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.google{
+    color: white;
+    background-color: #db4437;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px
+    
+    
+}
+
+.apple{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px
+}
+
+.facebook{
+    color: white;
+    background-color: #4754c4;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px
+}
+
+div.scrollmenu {
+  background-color: rgb(250, 250, 250);
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+div.scrollmenu a {
+  display:inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(175, 175, 175);
+}
+
+.navbar {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p{
+    color: white;
+}

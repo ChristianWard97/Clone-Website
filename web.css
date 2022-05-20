@@ -7,16 +7,25 @@ body {
     
     height: 100%;
     background: linear-gradient(180deg, #1f1e28 50%, #1f1e28 50%);
-
+    
 }
 
+.s1-home-header{
+    
+}
+
+
 .solologo{
-height: 40px;
-width: 200px
+    padding-left: 8%;
+    padding-top: 2%;
+height: 75px;
+width: 400px
 }
 
 .navi{
-
+    position: relative;
+    top: -120px;
+    right: 110px;
 }
 
 .center{
@@ -28,54 +37,55 @@ width: 200px
 
 .mainheader{
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 100px;
 }
 
 .subheader{
-    font-size: small;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .position{
     margin: auto;
     width: 100%;
-    padding: 0px;
+    padding: 10px;
     text-align:end
 }
 .courses{
-    color: white;
+    color: #b0b0b1;
 background-color: #1f1e28;
 border: none;
-font-size: 20px;
+font-size: 30px;
 font-weight:bold
 }
 .playground{
-    color: white;
+    color: #b0b0b1;
 background-color: #1f1e28;
 border: none;
-font-size: 20px;
+font-size: 30px;
 font-weight:bold
 }
 .discuss{
-    color: white;
+    color: #b0b0b1;
 background-color: #1f1e28;
 border: none;
-font-size: 20px;
+font-size: 30px;
 font-weight:bold
 }
 .blog{
-    color: white;
+    color: #b0b0b1;
 background-color: #1f1e28;
 border: none;
-font-size: 20px;
+font-size: 30px;
 font-weight:bold
 }
 .pro{
-    color: white;
+    color: #b0b0b1;
 background-color: #1f1e28;
 border: none;
-font-size: 20px;
+font-size: 30px;
 font-weight:bold
+
 }
 
 .login{
@@ -83,9 +93,11 @@ font-weight:bold
     background-color: #1f1e28;
  border-color: rgb(25, 136, 240);
  border-radius: 5px;
- padding: 5px 10px;
-font-size: 20px;
+ margin-left: 50px;
+ padding: 10px;
+font-size: 30px;
 font-weight:bold
+
 
 }
 
@@ -94,15 +106,15 @@ font-weight:bold
     background-color: rgb(25, 136, 240);
     border-radius: 5px;
     border: none;
-    padding: 7px 10px;
-font-size: 20px;
+  padding: 12px;
+font-size: 30px;
 font-weight:bold
 }
 
 .start-learning{
     color: white;
     background-color: rgb(25, 136, 240);
-    font-size: 22px;
+    font-size: 30px;
     padding: 10px 100px;
     font-weight: 600;
     border-radius: 10px;
@@ -112,6 +124,7 @@ font-weight:bold
 .google{
     color: white;
     background-color: #db4437;
+    font-size: 30px;
     font-weight: 600;
     border-radius: 5px;
     border: none;
@@ -123,6 +136,7 @@ font-weight:bold
 .apple{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
+    font-size: 30px;
     font-weight: 600;
     border-radius: 5px;
     border: none;
@@ -132,16 +146,29 @@ font-weight:bold
 .facebook{
     color: white;
     background-color: #4754c4;
+    font-size: 30px;
     font-weight: 600;
     border-radius: 5px;
     border: none;
     padding: 10px 30px
 }
 
+.or{
+    font-size: 30px;
+}
+
 div.scrollmenu {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
   overflow: auto;
+  border-radius: 9px;
   white-space: nowrap;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 70%;
+  justify-content: space-evenly;
+  
+  
   
 }
 
@@ -149,12 +176,15 @@ div.scrollmenu a {
   display:inline-block;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 50px;
+  font-size:large;
+  font-weight: bold;
+  padding: 100px;
+ 
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(170, 170, 170);
 }
 
 .navbar {
@@ -167,4 +197,144 @@ h3 {
 
 p{
     color: white;
+}
+
+.s1-home-para{
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+.s1-home-para div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+.tailored{
+    color: black;
+}
+.tailoredtext{
+    color: black;
+}
+.bitesize{
+    color: black;
+}
+.bitesizetext{
+    color: black;
+}
+
+.getproof{
+    color: black;
+}
+
+.getprooftext{
+    color: black;
+}
+
+.learning-onthego{
+    color: black;
+}
+
+.lernongotext{
+    color: black;
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+.tcourse{
+color: black;
+
+}
+
+.tcoursetext{
+    color: black;
+    font-size: 25px;
+}
+
+.abc{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:column;
+    flex-basis: 25%;
+    justify-content: center;
+    max-width: 25%;
+    padding: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 25px;
+    font-weight: 100px;
+ 
+}
+
+.learnongo {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:column;
+    flex-basis: 50%;
+    justify-content: center;
+    max-width: 50%;
+    padding: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.learning-onthego{
+    color: #000000;
+    font-size: 50px;
+    padding-bottom: -10%;
+   
+}
+
+.lernongotext{
+    color: #000000;
+    
+}
+
+.learnongo img{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+
+.footer{
+background: #18171d;
+padding: 10px;
+font-size: 30px;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.footer-first-para{
+    text-align: left;
+    font-size: 22px;
+    color: #5a6776;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+
+.footer-first-para span {
+    padding-left: 10px;
+word-spacing: 2px;
+}
+
+
+.footer-end-para{
+    text-align: end;
+    font-size: 22px;
+    color: #5a6776;
+    font-weight: bolder;
+ 
 }
